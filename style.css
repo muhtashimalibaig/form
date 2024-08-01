@@ -1,0 +1,17 @@
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .font--class{
+    /* may be change */
+    font-size: 15px !important;
+    margin-top: 10px !important;
+}
+.terms{
+    font-family: sans-serif !important;
+}
+footer h3{
+    font-family: serif;
+}
+input[type="text"]:focus-visible {
+    outline: none !important; /* Remove border on focus-visible */
+}

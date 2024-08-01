@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="main" class="overflow-hidden">
+            <!-- LOGO -->
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4 p-0"><h1>حكومة دبي</h1> <h1 class="text-uppercase fs-6 fw-bolder">Government of Dubai</h1></div>
+                            <div class="col-md-4 p-0"><img src="" alt="Logo"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row justify-content-end">
+                            <div class="col-md-5 p-0">
+                                <h1 class="fs-3">دائرة الأراضي والأملاك</h1>
+                                <h1 class="fs-4">Land department</h1>
+                            </div>
+                            <div class="col-md-5 p-0">
+                                <img src="" alt="Your image 2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="row px-5" style="background-color: #dadada;">
+                <div class="col-md-4">
+                    <div style="margin-top: 40px;">
+                        <label for="Date">Date</label>
+                        <input type="text" name="Date" id="Date" style="border: 0;border-bottom: 1px dashed black;background-color: transparent !important;">
+                        <label for="Date">التاريخ</label>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h1>عقد الايجار</h1>
+                    <h1 class="text-uppercase">Tenancy contract</h1>
+                </div>
+            </div>
+            <!-- forms -->
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-12" style="border: 1px solid #dadada;">
+                        <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                            <div class="col-md-6">
+                                <h1 class="fs-5 text-white mb-0">Owner / Lessor Information</h1>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <h1 class="fs-5 text-white mb-0">معلومات المالك / المؤجر</h1>
+                            </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="OwnerName"><h6 class="fw-bolder font--class">Owner's Name</h6></label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="OwnerName" id="OwnerName" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end"><label for="OwnerName"><h6 class="fw-bolder" style="font-size: 15px;">أسم المالك</h6></label></div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="lessorName"><h6 class="fw-bolder font--class">Lessor's Name</h6></label>
+                                </div>
+                                <div class="col-md-8 p-0">
+                                    <input type="text" name="lessorName" id="lessorName" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end">
+                                    <label for="lessorName"><h6 class="fw-bolder font--class">أاسم المؤجر</h6></label>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="Emirates"><h6 class="fw-bolder font--class">Lessor's Emirates ID</h6></label>
+                                </div>
+                                <div class="col-md-8 p-0">
+                                    <input type="text" name="Emirates" id="Emirates" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end">
+                                    <label for="Emirates"><h6 class="fw-bolder font--class">أالهوية الإماراتية للمؤجر<h6></label>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="License"><h6 class="fw-bolder font--class mb-0">License No.</h6></label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="License" id="License" style="border: 0;border-bottom: 1px dashed #000 !important;" class="w-100">
+                                            <div class="row px-2 pt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);" class="fw-bold">Incase of a Company</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);;">حالة الشركة</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="License"><h6 class="fw-bolder font--class mb-0">رقم الرخصة</h6></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-3 p-0">
+                                            <label for="authority" class="mt-2"><h6 class="fw-bolder mb-0 mt-3 font--class">Licensing Authority</h6></label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="authority" id="authority" style="border: 0;border-bottom: 1px dashed #000 !important;" class="w-100">
+                                            <div class="row px-2 pt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);" class="fw-bold">Incase of a Company</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);">حالة الشركة</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="authority"><h6 class="fw-bolder mb-0 font--class">سلطة الترخيص</h6></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="email"><h6 class="fw-bolder font--class">Lessor's Email</h6></label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="email" id="email" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end"><label for="email"><h6 class="fw-bolder" style="font-size: 15px;">البريد الإلكتروني للمؤجر</h6></label></div>
+                            </div>
+                            <div class="row mt-2 mb-3">
+                                <div class="col-md-2">
+                                    <label for="OwnerName"><h6 class="fw-bolder font--class">Lessor's Phone</h6></label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="number" name="OwnerName" id="OwnerName" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end"><label for="OwnerName"><h6 class="fw-bolder" style="font-size: 15px;">هاتف المؤجر</h6></label></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12" style="border: 1px solid #dadada;">
+                        <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                            <div class="col-md-6">
+                                <h1 class="fs-5 text-white mb-0">Tenant Informtion</h1>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <h1 class="fs-5 text-white mb-0">معلومات المستأجر</h1>
+                            </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="TenantName"><h6 class="fw-bolder font--class">Tenant's Name</h6></label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="TenantName" id="TenantName" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end"><label for="TenantName"><h6 class="fw-bolder" style="font-size: 15px;">اسم المستأجر</h6></label></div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="EmiratesId"><h6 class="fw-bolder font--class">Tenant's Emirates ID</h6></label>
+                                </div>
+                                <div class="col-md-8 p-0">
+                                    <input type="text" name="EmiratesId" id="EmiratesId" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end">
+                                    <label for="EmiratesId"><h6 class="fw-bolder font--class">هوية الإمارات للمستأجر</h6></label>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="LicenseTenant"><h6 class="fw-bolder font--class mb-0">License No.</h6></label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="LicenseTenant" id="LicenseTenant" style="border: 0;border-bottom: 1px dashed #000 !important;" class="w-100">
+                                            <div class="row px-2 pt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);" class="fw-bold">Incase of a Company</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);;">حالة الشركة</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="LicenseTenant"><h6 class="fw-bolder font--class mb-0">رقم الرخصة</h6></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-3 p-0">
+                                            <label for="authorityTenant" class="mt-2"><h6 class="fw-bolder mb-0 mt-3 font--class">Licensing Authority</h6></label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="authorityTenant" id="authorityTenant" style="border: 0;border-bottom: 1px dashed #000 !important;" class="w-100">
+                                            <div class="row px-2 pt-2">
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);" class="fw-bold">Incase of a Company</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p style="font-size: 12px;color: rgb(18, 18, 126);">حالة الشركة</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="authorityTenant"><h6 class="fw-bolder mb-0 font--class">سلطة الترخيص</h6></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-2">
+                                    <label for="emailTenant"><h6 class="fw-bolder font--class">Tenant's Email</h6></label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="emailTenant" id="emailTenant" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end"><label for="emailTenant"><h6 class="fw-bolder" style="font-size: 15px;">البريد الإلكتروني للمستأجر</h6></label></div>
+                            </div>
+                            <div class="row mt-2 mb-3">
+                                <div class="col-md-2">
+                                    <label for="TenantPhone"><h6 class="fw-bolder font--class">Tenant's Phone</h6></label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="number" name="TenantPhone" id="TenantPhone" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                </div>
+                                <div class="col-md-2 text-end"><label for="TenantPhone"><h6 class="fw-bolder" style="font-size: 15px;">هاتف المستأجر</h6></label></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12" style="border: 1px solid #dadada;">
+                        <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                            <div class="col-md-6">
+                                <h1 class="fs-5 text-white mb-0">Property Informtion</h1>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <h1 class="fs-5 text-white mb-0">معلومات الملكية</h1>
+                            </div>
+                            </div>
+                           <div class="row mt-2">
+                            <div class="col-md-3">
+                                <h6 class="font--class fw-bolder">Property Usage</h6>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input type="radio" name="" id="">
+                                        <label for="industry"><h6 class="font--class">Industrial</h6></label>
+                                        <label for="industry"><h6 class="font--class">صناعي</h6></label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="radio" name="" id="">
+                                        <label for="industry"><h6 class="font--class">Commercial</h6></label>
+                                        <label for="industry"><h6 class="font--class">تجاري</h6></label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="radio" name="" id="">
+                                        <label for="industry"><h6 class="font--class">Residential</h6></label>
+                                        <label for="industry"><h6 class="font--class">سكني</h6></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <label for="">
+                                    <h6 class="font--class fw-bolder">استخدام الممتلكات</h6>
+                                </label>
+                            </div>
+                           </div>
+                           <div class="row mt-2 px-2">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-2"><label for="Plot"><h6 class="font--class fw-bolder">Plot No</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="Plot" id="Plot" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="Plot"><h6 class="font--class fw-bolder">القطعة رقم</h6></label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="Building"><h6 class="font--class fw-bolder">Building Name</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="Building" id="Building" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="Building"><h6 class="font--class fw-bolder">اسم المبنى</h6></label></div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="PropertyType"><h6 class="font--class fw-bolder">Property Type</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="PropertyType" id="PropertyType" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="PropertyType"><h6 class="font--class fw-bolder">نوع الملكية</h6></label></div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="location"><h6 class="font--class fw-bolder">Location</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="location" id="location" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="location"><h6 class="font--class fw-bolder">موقع</h6></label></div>
+                                </div> 
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-2"><label for="Makani"><h6 class="font--class fw-bolder">Makani No</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="Makani" id="Makani" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="Makani"><h6 class="font--class fw-bolder">رقم مكاني</h6></label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="PropertyNum"><h6 class="font--class fw-bolder">Property No</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="PropertyNum" id="PropertyNum" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="PropertyNum"><h6 class="font--class fw-bolder">رقم العقار</h6></label></div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="PropertyType"><h6 class="font--class fw-bolder">Property Area (s.m)</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="PropertyType" id="PropertyType" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="PropertyType"><h6 class="font--class fw-bolder">منطقة العقار</h6></label></div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="Premises"><h6 class="font--class fw-bolder">Premises No. (DEWA)</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="Premises" id="Premises" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="Premises"><h6 class="font--class fw-bolder">رقم المبنى (ديوا)</h6></label></div>
+                                </div> 
+                            </div>
+                           </div>
+                           
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12" style="border: 1px solid #dadada;">
+                        <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                            <div class="col-md-6">
+                                <h1 class="fs-5 text-white mb-0">Contract Informtion</h1>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <h1 class="fs-5 text-white mb-0">معلومات العقد</h1>
+                            </div>
+                            </div>
+                           <div class="row mt-2 px-2">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="Contract"><h6 class="fw-bolder" style="font-size: 14px;margin-top: 15px;">Contract Period</h6></label></div>
+                                    <div class="col-md-4">
+                                        <input type="text" name="Contract" id="Contract" class="w-100" style="border: 0;border-bottom: 1px dashed #000;">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center"><p>From من</p></div>
+                                         </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" name="Contract" id="Contract" class="w-100" style="border: 0;border-bottom: 1px dashed #000;">
+                                            <div class="row text-center">
+                                                <div class="col-md-12"><p>To إلى</p></div>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-2"><label for="Contract"><h6 class="font--class fw-bolder">مدة العقد</h6></label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="AnnualRent"><h6 class="font--class fw-bolder">Annual Rent</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="AnnualRent" id="AnnualRent" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2 p-0"><label for="AnnualRent"><h6 class="font--class fw-bolder">الإيجار السنوي</h6></label></div>
+                                </div> 
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="ContractVal"><h6 class="font--class fw-bolder">Contract Value</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="ContractVal" id="ContractVal" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="ContractVal"><h6 class="font--class fw-bolder">قيمة العقد</h6></label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 p-0"><label for="Deposits"><h6 class="fw-bolder" style="font-size: 14px;margin-top: 10px;">Security Deposit Amount</h6></label></div>
+                                    <div class="col-md-8"><input type="text" name="Deposits" id="Deposits" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                                    <div class="col-md-2"><label for="Deposits"><h6 class="font--class fw-bolder">رقم العقار</h6></label></div>
+                                </div> 
+                              
+                            </div>
+                            <div class="col-md-12 p-0">
+                                <div class="row mt-2">
+                                    <div class="col-md-2 pe-0">
+                                        <label for="OwnerName"><h6 class="fw-bolder font--class">Mode of Payment</h6></label>
+                                    </div>
+                                    <div class="col-md-8 p-0">
+                                        <input type="text" name="OwnerName" id="OwnerName" class="w-100" style="border: 0;border-bottom: 1px dashed #000 !important;">
+                                    </div>
+                                    <div class="col-md-2 text-end"><label for="OwnerName"><h6 class="fw-bolder" style="font-size: 15px;">طريقة الدفع</h6></label></div>
+                                </div>
+                            </div>
+                           </div>
+                           
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                            <div class="col-md-6">
+                                <h1 class="fs-5 text-white mb-0">Signatures</h1>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <h1 class="fs-5 text-white mb-0">التوقيعات</h1>
+                            </div>
+                            </div>
+                           <div class="row mt-2 px-2 mt-3" style="border: 1px solid #dadada;">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6 style="margin-top: 90px;" class="fw-bolder">Tenant Signature <span class="ms-2">توقيع المستأجر</span></h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-top: 90px;">
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">Date</h6></div>
+                                            <div class="col-md-8 p-0"><input type="text" name="" id="" class="w-100" style="border: none; border-bottom: 1px dashed #000;"></div>
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">تاريخ</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6 style="margin-top: 90px;" class="fw-bolder">Lessor's Signature <span class="ms-2">توقيع المؤجر</span></h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-top: 90px;">
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">Date</h6></div>
+                                            <div class="col-md-8 p-0"><input type="text" name="" id="" class="w-100" style="border: none; border-bottom: 1px dashed #000;"></div>
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">تاريخ</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           
+                    </div>
+                </div>
+            </div>
+            <div class="termsandconditions">
+                <!-- logo -->
+            <div class="container">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-4 p-0"><h1>حكومة دبي</h1> <h1 class="text-uppercase fs-6 fw-bolder">Government of Dubai</h1></div>
+                                <div class="col-md-4 p-0"><img src="" alt="Logo"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row justify-content-end">
+                                <div class="col-md-5 p-0">
+                                    <h1 class="fs-3">دائرة الأراضي والأملاك</h1>
+                                    <h1 class="fs-4">Land department</h1>
+                                </div>
+                                <div class="col-md-5 p-0">
+                                    <img src="" alt="Your image 2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- terms and conditions banner -->
+                    <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6"><h2 class="text-white fs-5 mb-0">Terms and Conditions</h2></div>
+                                <div class="col-md-6 text-end"><h2 class="text-white fs-5 mb-0">الأحكام والشروط</h2></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- list items -->
+                     <div class="row p-2">
+                        <div class="col-md-6">
+                            <ol type="1" class="p-2 fw-bolder">
+                                <li class="mb-3"><h5 class="fs-5 fw-bold terms">The tenant has inspected the premises and agreed to lease the unit
+                                    on its current condition</h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">Tenant undertakes to use the premises for designated purpose,
+                                        tenant has no rights to transfer or relinquish the tenancy contract either
+                                        with or to without counterpart to any without landlord written approval.
+                                        Also, tenant is not allowed to sublease the premises or any part thereof
+                                        to third party in whole or in part unless it is legally permitted.
+                                    </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">The tenant undertakes not to make any amendments, modifications
+                                        or addendums to the premises subject of the contract without obtaining
+                                        the landlord written approval. Tenant shall be liable for any damages or
+                                        failure due to that.
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">The tenant shall be responsible for payment of all electricity, water,
+                                        cooling and gas charges resulting of occupying leased unit unless other
+                                        condition agreed in written.                                        
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">The tenant must pay the rent amount in the manner and dates agreed with the landlord.                                       
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">The tenant fully undertakes to comply with all the regulations and
+                                        instructions related to the management of the property and the use of
+                                        the premises and of common areas such (parking, swimming pools,
+                                        gymnasium, etc…).</h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">Tenancy contract parties declare all mentioned emails addresses and
+                                        phone numbers are correct, all formal and legal notifications will be sent
+                                        to those addresses in case of dispute between parties</h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">The landlord undertakes to enable the tenant of the full use of the
+                                        premises including its facilities (swimming pool, gym, parking lot, etc)
+                                        and do the regular maintenance as intended unless other condition
+                                        agreed in written, and not to do any act that would detract from the
+                                        premises benefit.</h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">. By signing this agreement from the first party, the “Landlord” hereby
+                                        confirms and undertakes that he is the current owner of the property or
+                                        his legal representative under legal power of attorney duly entitled by
+                                        the competent authorities.
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">.Any disagreement or dispute may arise from execution or
+                                        interpretation of this contract shall be settled by the Rental Dispute Center.
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">This contract is subject to all provisions of Law No (26) of 2007
+                                        regulating the relation between landlords and tenants in the emirate of
+                                        Dubai as amended, and as it will be changed or amended from time to
+                                        time, as long with any related legislations and regulations applied in the
+                                        emirate of Dubai.                                        
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">Any additional condition will not be considered in case it conflicts
+                                        with law.                                        
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">In case of discrepancy occurs between Arabic and non Arabic texts
+                                        with regards to the interpretation of this agreement or the scope of its
+                                        application, the Arabic text shall prevail.                                                                               
+                                        </h5></li>
+                                    <li class="mb-3"><h5 class="fs-5 fw-bold terms">The landlord undertakes to register this tenancy contract on EJARI
+                                        affiliated to Dubai LandDepartment and provide with all required
+                                        documents.                                                                              
+                                        </h5></li>
+                            </ol>                            
+                        </div>
+                        <div class="col-md-6 text-end">
+                            <ol type="none" style="list-style: none;">
+                                <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">١.</span>عاين المستأجر الوحدة موضوع الايجار ووافق على إستئجار العقار على حالته الحالية</h5></li>
+                                <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٢.</span> يتعهد المستأجر باستعمال المأجور للغرض المخصص له، و لا يجوز للمستأجر تحويل
+                                    أو التنازل عن عقد الايجار للغير بمقابل أو دون مقابل دون موافقة المالك خطيا، كما لا
+                                    يجوز للمستأجر تأجير المأجور أو أي جزء منه من الباطن مالم يسمح بذلك قانونا</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٣.</span> يتعهد المستأجر بعدم إجراء أي تعديلات أو إضافات على العقار موضوع العقد دون
+                                        موافقة المالك الخطية، و يكون المستأجر مسؤولا عن أي أضرار أو نقص أو تلف يلحق
+                                        بالعقار</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٤.</span>يكون المستأجر مسؤولا عن سداد كافة فواتير الكهرباء و المياه و التبريد و الغاز
+                                        المترتبة عن اشغاله المأجور مالم يتم الاتفاق على غير ذلك كتابيا</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٥.</span>يتعهد المستأجر بسداد مبلغ الايجار المتفق عليه في هذا العقد في التواريخ و
+                                        الطريقة المتفق عليها</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٦.</span>يلتزم المستأجر التقيد التام بالانظمة و التعليمات المتعلقة باستخدام المأجور و
+                                        المنافع المشتركة (كمواقف السيارات، أحواض السباحة، النادي الصحي، الخ)</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٧.</span> يقر أطراف التعاقد بصحة العناوين و أرقام الهواتف المذكورة أعلاه، و تكون تلك
+                                        العناوين هي المعتمدة رسميا للإخطارات و الأعلانات القضائية في حال نشوء أي نزاع
+                                        بين أطراف العقد</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٨.</span>يتعهد المؤجر بتمكين المستأجر من الانتفاع التام بالعقار للغرض المؤجر لأجله و
+                                        المرافق الخاصة به (حوض سباحة، نادي صحي، مواقف سيارات.... إلخ) كما يكون مسؤولا
+                                        عن أعمال الصيانة مالم يتم الاتفاق على غير ذلك، و عدم التعرض له في منفعة العقار</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">٩.</span>يعتبر توقيع المؤجر على هذا العقد إقرار منه بأنه المالك الحالي للعقار أو الوكيل
+                                        القانوني للمالك بموجب وكالة قانونية موثقة وفق الأصول لدى الجهات المختصة</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">١٠.</span>أي خلاف أو نزاع قد ينشأ عن تنفيذ أو تفسير هذا العقد يعود البت فيه لمركز فض
+                                        المنازعات الإيجارية</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">١١.</span>يخضع هذا العقد لكافة أحكام القانون رقم ( 26 ) لسنة 2007 بشأن تنظيم العلاقة
+                                        بين مؤجري و مستأجري العقارات في إماراة دبي، و تعديلاته و أي تغيير أو تعديل يطرأ
+                                        عليه من وقت لآخر، كما يخضع للتشريعات و اللوائح الأخرى ذات العلاقة النافذة في دبي</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">١٢.</span>لا يعتد بأي شرط تم إضافته إلى هذا العقد في حال تعارضه مع القانون</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">١٣.</span>في حال حدوث أي تعارض أو اختلاف في التفسير بين النص العربيو النص الأجنبي
+                                        يعتمد النص العربي</h5></li>
+                                    <li class="mb-4"><h5 class="fs-4 fw-bold terms"><span class="fw-bolder fs-5 ms-2">١٤.</span> يتعهد المؤجر بتسجيل عقد الايجار في نظام إيجاري التابع لدائرة الأراضي و الأملاك
+                                        و توفير كافة المستندات اللازمة لذلك</h5></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-12">
+                            <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                                <div class="col-md-6">
+                                    <h1 class="fs-5 text-white mb-0">Signatures</h1>
+                                </div>
+                                <div class="col-md-6 text-end">
+                                    <h1 class="fs-5 text-white mb-0">التوقيعات</h1>
+                                </div>
+                                </div>
+                               <div class="row mt-2 px-2 mt-3" style="border: 1px solid #dadada;">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 style="margin-top: 90px;" class="fw-bolder">Tenant Signature <span class="ms-2">توقيع المستأجر</span></h6>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row" style="margin-top: 90px;">
+                                                <div class="col-md-2 p-0"><h6 class="fw-bolder">Date</h6></div>
+                                                <div class="col-md-8 p-0"><input type="text" name="" id="" class="w-100" style="border: none; border-bottom: 1px dashed #000;"></div>
+                                                <div class="col-md-2 p-0"><h6 class="fw-bolder">تاريخ</h6></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h6 style="margin-top: 90px;" class="fw-bolder">Lessor's Signature <span class="ms-2">توقيع المؤجر</span></h6>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row" style="margin-top: 90px;">
+                                                <div class="col-md-2 p-0"><h6 class="fw-bolder">Date</h6></div>
+                                                <div class="col-md-8 p-0"><input type="text" name="" id="" class="w-100" style="border: none; border-bottom: 1px dashed #000;"></div>
+                                                <div class="col-md-2 p-0"><h6 class="fw-bolder">تاريخ</h6></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               </div>
+                               
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-4 p-0"><h1>حكومة دبي</h1> <h1 class="text-uppercase fs-6 fw-bolder">Government of Dubai</h1></div>
+                                <div class="col-md-4 p-0"><img src="" alt="Logo"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row justify-content-end">
+                                <div class="col-md-5 p-0">
+                                    <h1 class="fs-3">دائرة الأراضي والأملاك</h1>
+                                    <h1 class="fs-4">Land department</h1>
+                                </div>
+                                <div class="col-md-5 p-0">
+                                    <img src="" alt="Your image 2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6"><h2 class="text-white fs-5 mb-0">Know your Rights</h2></div>
+                            <div class="col-md-6 text-end"><h2 class="text-white fs-5 mb-0">لمعرفة حقوق الأطراف</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-3" style="border: 1px solid #dadada;">
+                    <div class="col-md-6">
+                        <ul class="p-2">
+                            <li class="fw-bold terms mb-2 fs-5">You may visit Rental Dispute Center website through <a href="#" class="fw-bold"> www.rdc.gov.ae</a>
+                                in case of any rental dispute between parties.</li>
+                            <li class="fw-bold terms mb-2 fs-5">Law No 26 of 2007 regulating relationship between landlords
+                                and tenants</li>
+                            <li class="fw-bold terms mb-2 fs-5">Law No 33 of 2008 amending law 26 years 2007</li>
+                            <li class="fw-bold terms mb-2 fs-5">Law No 43 of 2013 determining rent increases for properties</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <ul style="list-style: none;">
+                            <li class="fw-bold terms mb-4 fs-5"><a href="#" class="fw-bold me-2">www.rdc.gov.ae</a>يمكنكم زيارة موقع مركز فض المنازعات الإيجارية من خلال
+                                في حال نشوء أي نزاع إيجاري بين الأطراف</li>
+                            <li class="fw-bold terms mb-4 fs-5">الإطلاع على قانون رقم 26 لسنة 2007 بشأن تنظيم العلاقة بين المؤجرين والمستأجرين</li>
+                            <li class="fw-bold terms mb-4 fs-5">الإطلاع على قانون رقم 33 لسنة 2008 الخاص بتعديل بعض أحكام قانون 26 لعام 2007</li>
+                            <li class="fw-bold terms mb-4 fs-5">الإطلاع على قانون رقم 43 لسنة 2013 بشأن تحديد زيادة بدل الإيجار</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row p-3 mt-5" style="background-color: rgb(5, 5, 59);">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6"><h2 class="text-white fs-5 mb-0">Attachments for Ejari Registration</h2></div>
+                            <div class="col-md-6 text-end"><h2 class="text-white fs-5 mb-0">مرفقات التسجيل في إيجاري</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-3" style="border: 1px solid #dadada;">
+                    <div class="col-md-6">
+                        <ol class="p-2">
+                            <li class="fw-bold terms mb-2 fs-5">Original unified tenancy contract</li>
+                            <li class="fw-bold terms mb-2 fs-5">Original emirates ID of applicant</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <ol style="list-style: none;">
+                            <li class="fw-bold terms mb-4 fs-5">١ نسخة أصلية عن عقد الايجار الموحد</li>
+                            <li class="fw-bold terms mb-4 fs-5">٢ الهوية الإماراتية الأصلية لمقدم الطلب</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row p-3 mt-5" style="background-color: rgb(5, 5, 59);">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6"><h2 class="text-white fs-5 mb-0">Additional Terms</h2></div>
+                            <div class="col-md-6 text-end"><h2 class="text-white fs-5 mb-0">شروط إضافية</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-3 py-3" style="border: 1px solid #dadada;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-1 p-0"><h5 class="mb-0 mt-2">1.</h5></div>
+                                <div class="col-md-10 p-0"><input type="text" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                            <div class="col-md-1 p-0 text-end"><h5 class="mb-0 mt-2">.١</h5></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 p-0"><h5 class="mb-0 mt-2">2.</h5></div>
+                            <div class="col-md-10 p-0"><input type="text" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                            <div class="col-md-1 p-0 text-end"><h5 class="mb-0 mt-2">.٢</h5></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 p-0"><h5 class="mb-0 mt-2">3.</h5></div>
+                                <div class="col-md-10 p-0"><input type="text" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                            <div class="col-md-1 p-0 text-end"><h5 class="mb-0 mt-2">.٣</h5></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 p-0"><h5 class="mb-0 mt-2">4.</h5></div>
+                                <div class="col-md-10 p-0"><input type="text" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                            <div class="col-md-1 p-0 text-end"><h5 class="mb-0 mt-2">.٤</h5></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 p-0"><h5 class="mb-0 mt-2">5.</h5></div>
+                                <div class="col-md-10 p-0"><input type="text" class="w-100" style="border: 0;border-bottom: 1px dashed #000;"></div>
+                            <div class="col-md-1 p-0 text-end"><h5 class="mb-0 mt-2">.٥</h5></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <p class="fw-bold fs-5"><strong>Note : </strong>You may add addendum to this tenancy contract in case you
+                            have additional terms while it needs to be signed by all parties</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="fw-bold fs-5">ملاحظة: يمكن إضافة ملحق إلى هذا العقد في حال وجود أي شروط إضافية،
+                            على أن يوقع من أطراف التعاقد</p>
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        <div class="row p-3" style="background-color: rgb(5, 5, 59);">
+                            <div class="col-md-6">
+                                <h1 class="fs-5 text-white mb-0">Signatures</h1>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <h1 class="fs-5 text-white mb-0">التوقيعات</h1>
+                            </div>
+                            </div>
+                           <div class="row mt-2 px-2 mt-3" style="border: 1px solid #dadada;">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6 style="margin-top: 90px;" class="fw-bolder">Tenant Signature <span class="ms-2">توقيع المستأجر</span></h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-top: 90px;">
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">Date</h6></div>
+                                            <div class="col-md-8 p-0"><input type="text" name="" id="" class="w-100" style="border: none; border-bottom: 1px dashed #000;"></div>
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">تاريخ</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6 style="margin-top: 90px;" class="fw-bolder">Lessor's Signature <span class="ms-2">توقيع المؤجر</span></h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-top: 90px;">
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">Date</h6></div>
+                                            <div class="col-md-8 p-0"><input type="text" name="" id="" class="w-100" style="border: none; border-bottom: 1px dashed #000;"></div>
+                                            <div class="col-md-2 p-0"><h6 class="fw-bolder">تاريخ</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+                <footer class="row px-5 py-3" style="border: 1px solid #dadada;">
+                    <div class="col-md-12 text-center">
+                        <h3 class="fs-5">Tel: 8004488 Fax: +971 4 222 2251 P.O.Box 1166, Dubai, U.A.E. هاتف: 8004488 فاكس: +971 4 222 2251 ص.ب: 1166، دبي، الإمارات العربية المتحدة.</h3>
+                        <div class="row">
+                            <div class="col-md-6 p-0">
+                                <h3 class="fs-5">Website: <a href="#" class="text-dark text-decoration-none">www.dubailand.gov.ae</a> :موقع إلكتروني</h3>
+                            </div>
+                            <div class="col-md-6 p-0">
+                                <h3 class="fs-5">E-mail: support@dubailand.gov.ae :بريد إلكتروني</h3>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
